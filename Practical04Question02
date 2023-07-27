@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main(){
+int choice,num1,num2;
+printf("menu:\n");
+printf("1.Addition\n");
+printf("2.Substraction\n");
+printf("3.multiplication\n");
+printf("4.Divition\n");
+printf("Enter your choice:");
+scanf("%d",&choice);
+
+printf("Enter two numbers:");
+scanf("%d %d",&num1,&num2);
+
+switch(choice){
+    case 1:
+      printf("result:%d\n",num1+num2);
+      break;
+    case 2:
+      printf("result:%d\n",num1-num2);
+      break;
+    case 3:
+      printf("result:%d\n",num1*num2);
+      break;
+    case 4:
+      printf("result:%.2f\n",(float) num1/num2);
+      break;
+    default:
+      printf("Invalid choice.\n");
+
+}
+}
+
