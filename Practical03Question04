@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    float radi;
+    printf("enter the radius of a circle");
+    scanf("%f",&radi);
+    printf("diameter is %.2f\n",radi*2.0);
+    printf("circumference is %.2f\n",radi*2.0*3.14159);
+    printf("area is %.2f\n",radi*3.14159);
+
+}
