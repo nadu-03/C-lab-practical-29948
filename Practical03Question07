@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+    float basicsalary;
+    int yos;
+    char city;
+    float additionalallowance=0,bonus=0,grossr;
+    printf("enter the basic salary");
+    scanf("%f",&basicsalary);
+    printf("enter the city");
+    scanf("%c",&city);
+    if(yos>5)
+       additionalallowance+=0.10*basicsalary;
+    if (city=='C')
+       additionalallowance+=2500;
+    if (basicsalary>=50000)
+       bonus+=0.15*basicsalary;
+    else if (basicsalary>=25000)
+       bonus+=0.12*basicsalary;
+    else
+       bonus+=0.10*basicsalary;
+    grossr=basicsalary+additionalallowance+bonus;
+    printf("Gross Monthly Remuneration:%.2f\n",grossr);
+    
+}
