@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int counter=1,marks,avg;
+    do
+    {
+       printf("enter %d mark\n",counter);
+       scanf("%d",&marks);
+       avg=marks/10;
+       counter++;
+    }while (counter<=10);
+    if (avg<50)
+       printf("fail");
+    else
+       printf("pass");
+    
+}
