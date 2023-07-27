@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+ int fno,sno,swap;
+ printf("enter the fno value");
+ scanf ("%d",&fno);
+ prinf("enter the sno value");
+ scanf("%d",&sno);
+ swap=fno;
+ fno=sno;
+ sno=swap;
+ prinf("now the fno value is %d\n sno value is %d"fno,sno);
+  }  
+
