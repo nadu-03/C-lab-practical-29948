@@ -1,0 +1,18 @@
+int main() 
+{
+    
+    int a;
+    float b;
+    double c;
+    char x;
+    printf("Enter the integer");
+    scanf("%d",&a);
+    printf("Enter the float");
+    scanf("%f",&b);
+    printf("Enter the double");
+    scanf("%lf",&c);
+    printf("Enter the char");
+
+    printf("the three variables are, %d %f %lf %s", a,b,c,x);
+}
+
