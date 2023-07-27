@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+ int birthyear,age;
+ char name;
+ printf ("enter your name");
+ scanf("%s", &name);
+ printf("enter your birth year");
+ scanf("%d", &birthyear);
+ age=2023-birthyear;
+ printf("your age is %d", age);
+ printf("your name is %s", name);
+}
