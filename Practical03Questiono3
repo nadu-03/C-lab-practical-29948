@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    char empname;
+    float nsalary,bsalary,increment;
+    printf("enter employee name\n);
+    scanf("%s",&empname);
+    printf("enter the basic salary\n");
+    scanf("%f",&bsalary);
+    if (bsalary<5000)
+    {
+        increment=bsalary/100*5;
+        nsalary=bsalary+increment;
+    }
+    if (bsalary>=5000 && bsalary<10000)
+    {
+        if (bsalary>=10000)
+           increment=bsalary/100*15;
+           nsalary=bsalary+increment;
+    }
+    printf("employee name is %s",empname);
+    printf("new salary is %2f",nsalary);
+}
+
